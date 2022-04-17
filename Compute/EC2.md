@@ -18,5 +18,10 @@
 2. Verify the user name and choose Connect to open a terminal window.
 3. Run curl command to verify the instance type (curl http://169.254.169.254/latest/meta-data/instance-type)
 4. Close the browser window to disconnect.
-5. 
+
 ## <a name="cleanec2">Step 3: Clean up your instance</a>
+Once you are done with Step 1 & 2, you can terminate the instance.
+1. Select the instance under Instances section in the navigation pane.
+2. Choose Instance state, Terminate instance.
+3. Choose Terminate when prompted for confirmation.
+
