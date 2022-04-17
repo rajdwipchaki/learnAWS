@@ -1,4 +1,5 @@
 # EC2
+https://github.com/rajdwipchaki/learnAWS/blob/5fbf70f631fb18db7444b8b34c88d7b834aef53e/Compute/ec2/images/ec2-one-pager.jpg
 - [Step 1: Launch an instance](#launchec2)
 - [Step 2: Connect to your instance](#connectec2)
 - [Step 3: Clean up your instance](#cleanec2)
