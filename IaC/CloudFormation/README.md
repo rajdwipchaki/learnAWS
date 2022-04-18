@@ -6,16 +6,19 @@
 
 ## <a name="createstack">Step 1: Create Stack</a>
 1. Choose 'Create Stack' in Cloud formation.
-2. Choose 'Template is ready' and upload a template file. [Here is a sample file to create an EC2 instance in Ohio region](resources/Stack1.yaml)
+2. Choose 'Template is ready' and upload a template file. [Here is a sample file to create an EC2 instance in Ohio region](../CloudFormation/Resources/stack1.yaml)
 3. Click on 'Next' to see if there is validation error.
 4. Enter a name for your stack.
 5. Leave other options as it is and click on the 'Create Stack' button.
+6. EC2 instance is provisioned and it can be found in the EC2 dashboard (region = ohio)
 
 ## <a name="updatestack">Step 2: Update Stack</a>
-1. Choose EC2 Instance Connect.
-2. Verify the user name and choose Connect to open a terminal window.
-3. Run curl command to verify the instance type (curl http://169.254.169.254/latest/meta-data/instance-type)
-4. Close the browser window to disconnect.
+1. Add a new propoerty 'KeyName' in the previous template.
+2. Choose the update stack option and replace the current template. 
+3. Specify the template. [Use this template to add a KeyName](../CloudFormation/Resources/stack1-Add-KeyName.yaml)
+4. Click on the next button.
+5. The change details will be shown under 'Change set preview' section.
+6. Go ahead and click on the 'Update Stack' option.
 
 ## <a name="createchange">Step 3: Create Change Sets</a>
 Once you are done with Step 1 & 2, you can terminate the instance.
