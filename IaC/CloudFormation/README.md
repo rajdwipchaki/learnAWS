@@ -6,7 +6,7 @@
 
 ## <a name="createstack">Step 1: Create Stack</a>
 1. Choose 'Create Stack' in Cloud formation.
-2. Choose 'Template is ready' and upload a template file. [Here is a sample file to create an EC2 instance in Ohio region](../resources/Stack1.yaml)
+2. Choose 'Template is ready' and upload a template file. [Here is a sample file to create an EC2 instance in Ohio region](/resources/stack1.yaml)
 3. Click on 'Next' to see if there is validation error.
 4. Enter a name for your stack.
 5. Leave other options as it is and click on the 'Create Stack' button.
